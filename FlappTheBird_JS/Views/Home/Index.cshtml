@@ -1,0 +1,26 @@
+﻿<div id="inputName">
+    <input id="nameBox" type="text" /> 
+    <input id="nameBtn" type="button" value="Start Game" />
+</div>
+
+<div id="gameTable">
+    <p>
+        <label id="PlayerName"></label>
+        <label id ="Score"></label> 
+        <label id ="Level"></label> 
+        <label id ="Life"></label> 
+    </p>
+    <div id="playField">
+        <div id="bird"></div>
+    </div>
+    <div>
+        <div id="Xcoord">X:</div>
+        <div id="Ycoord">Y:</div>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @Scripts.Render("~/Scripts/GameScript.js")
+}
